@@ -4,7 +4,6 @@ using namespace std;
 int main()
 {
 	srand(time(0));
-	int temp = 0;
 	// кол-во элементов
 	const int s =10;
 	int arr[s];
@@ -19,9 +18,7 @@ int main()
 			{
 				if ((i + 1) != s)
 				{
-					 temp = arr[i];
-					arr[i] = arr[i + 1];
-					arr[i + 1] = temp;
+					swap(arr[i], arr[i + 1]);
 				}
 			}
 		}
