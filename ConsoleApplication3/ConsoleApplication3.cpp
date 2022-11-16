@@ -10,7 +10,7 @@ int main()
 	cout << "unsorted array" << endl;
 	for (int i = 0; i < s; i++) arr[i] = rand() % 1000 + 1;
 	for (int i = 0; i < s; i++) cout << arr[i] << "\t";
-	for (int i = 0; i < s; i++)
+	for (int b = 0; b < s; b++)
 	{
 		for (int i = 0; i < (s-1); i++)
 		{
